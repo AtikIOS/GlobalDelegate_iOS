@@ -6,30 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BEDD6F762D6CBE8B00F54F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDD6F6D2D6CBE8B00F54F10 /* Assets.xcassets */; };
+		BEDD6F782D6CBE8B00F54F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD6F702D6CBE8B00F54F10 /* LaunchScreen.storyboard */; };
+		BEDD6F792D6CBE8B00F54F10 /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD6F722D6CBE8B00F54F10 /* SecondViewController.storyboard */; };
+		BEDD6F7A2D6CBE8B00F54F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD6F6C2D6CBE8B00F54F10 /* AppDelegate.swift */; };
+		BEDD6F7B2D6CBE8B00F54F10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD6F732D6CBE8B00F54F10 /* SceneDelegate.swift */; };
+		BEDD6F7C2D6CBE8B00F54F10 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD6F742D6CBE8B00F54F10 /* SecondViewController.swift */; };
+		BEDD6F822D6CBF2E00F54F10 /* CountryName.json in Resources */ = {isa = PBXBuildFile; fileRef = BEDD6F812D6CBF1D00F54F10 /* CountryName.json */; };
+		BEDD6F842D6CC10800F54F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD6F832D6CC10800F54F10 /* ViewController.swift */; };
+		BEDD6F862D6CC12400F54F10 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD6F852D6CC12400F54F10 /* ViewController.storyboard */; };
+		BEDD6F882D6CC3AD00F54F10 /* GlobalDelegateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD6F872D6CC3AB00F54F10 /* GlobalDelegateManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BEDD6F542D6CBE8300F54F10 /* GlobalDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDD6F6C2D6CBE8B00F54F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEDD6F6D2D6CBE8B00F54F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEDD6F6E2D6CBE8B00F54F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDD6F6F2D6CBE8B00F54F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEDD6F712D6CBE8B00F54F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SecondViewController.storyboard; sourceTree = "<group>"; };
+		BEDD6F732D6CBE8B00F54F10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEDD6F742D6CBE8B00F54F10 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BEDD6F812D6CBF1D00F54F10 /* CountryName.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CountryName.json; sourceTree = "<group>"; };
+		BEDD6F832D6CC10800F54F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEDD6F852D6CC12400F54F10 /* ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController.storyboard; sourceTree = "<group>"; };
+		BEDD6F872D6CC3AB00F54F10 /* GlobalDelegateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDelegateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BEDD6F662D6CBE8500F54F10 /* Exceptions for "GlobalDelegate" folder in "GlobalDelegate" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BEDD6F532D6CBE8300F54F10 /* GlobalDelegate */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEDD6F562D6CBE8300F54F10 /* GlobalDelegate */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BEDD6F662D6CBE8500F54F10 /* Exceptions for "GlobalDelegate" folder in "GlobalDelegate" target */,
-			);
-			path = GlobalDelegate;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BEDD6F512D6CBE8300F54F10 /* Frameworks */ = {
@@ -45,7 +48,7 @@
 		BEDD6F4B2D6CBE8300F54F10 = {
 			isa = PBXGroup;
 			children = (
-				BEDD6F562D6CBE8300F54F10 /* GlobalDelegate */,
+				BEDD6F752D6CBE8B00F54F10 /* GlobalDelegate */,
 				BEDD6F552D6CBE8300F54F10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +59,56 @@
 				BEDD6F542D6CBE8300F54F10 /* GlobalDelegate.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BEDD6F752D6CBE8B00F54F10 /* GlobalDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD6F802D6CBF0800F54F10 /* Helper */,
+				BEDD6F7D2D6CBE9D00F54F10 /* System */,
+				BEDD6F7F2D6CBECE00F54F10 /* View */,
+				BEDD6F7E2D6CBEC000F54F10 /* Controller */,
+				BEDD6F6D2D6CBE8B00F54F10 /* Assets.xcassets */,
+				BEDD6F6E2D6CBE8B00F54F10 /* Info.plist */,
+			);
+			path = GlobalDelegate;
+			sourceTree = "<group>";
+		};
+		BEDD6F7D2D6CBE9D00F54F10 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD6F732D6CBE8B00F54F10 /* SceneDelegate.swift */,
+				BEDD6F6C2D6CBE8B00F54F10 /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		BEDD6F7E2D6CBEC000F54F10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD6F742D6CBE8B00F54F10 /* SecondViewController.swift */,
+				BEDD6F832D6CC10800F54F10 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEDD6F7F2D6CBECE00F54F10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD6F722D6CBE8B00F54F10 /* SecondViewController.storyboard */,
+				BEDD6F702D6CBE8B00F54F10 /* LaunchScreen.storyboard */,
+				BEDD6F852D6CC12400F54F10 /* ViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEDD6F802D6CBF0800F54F10 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD6F872D6CC3AB00F54F10 /* GlobalDelegateManager.swift */,
+				BEDD6F812D6CBF1D00F54F10 /* CountryName.json */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +125,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BEDD6F562D6CBE8300F54F10 /* GlobalDelegate */,
 			);
 			name = GlobalDelegate;
 			packageProductDependencies = (
@@ -122,6 +172,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDD6F762D6CBE8B00F54F10 /* Assets.xcassets in Resources */,
+				BEDD6F822D6CBF2E00F54F10 /* CountryName.json in Resources */,
+				BEDD6F862D6CC12400F54F10 /* ViewController.storyboard in Resources */,
+				BEDD6F782D6CBE8B00F54F10 /* LaunchScreen.storyboard in Resources */,
+				BEDD6F792D6CBE8B00F54F10 /* SecondViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +187,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDD6F882D6CC3AD00F54F10 /* GlobalDelegateManager.swift in Sources */,
+				BEDD6F842D6CC10800F54F10 /* ViewController.swift in Sources */,
+				BEDD6F7A2D6CBE8B00F54F10 /* AppDelegate.swift in Sources */,
+				BEDD6F7B2D6CBE8B00F54F10 /* SceneDelegate.swift in Sources */,
+				BEDD6F7C2D6CBE8B00F54F10 /* SecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEDD6F702D6CBE8B00F54F10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDD6F6F2D6CBE8B00F54F10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BEDD6F722D6CBE8B00F54F10 /* SecondViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDD6F712D6CBE8B00F54F10 /* Base */,
+			);
+			name = SecondViewController.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BEDD6F682D6CBE8500F54F10 /* Debug */ = {
@@ -149,7 +228,7 @@
 				INFOPLIST_FILE = GlobalDelegate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -176,7 +255,7 @@
 				INFOPLIST_FILE = GlobalDelegate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
